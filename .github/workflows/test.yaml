@@ -6,11 +6,6 @@ jobs:
   call-workflow-1-in-local-repo:
 #    uses: ./.gitea/workflows/test2.yml
     uses: timur00/rwf/.github/workflows/test2.yml@main
-    with:
-    secrets:
-      token: ${{ secrets.SECOND_TOKEN }}
-
-
     secrets: inherit
   Explore-Gitea-Actions:
     runs-on: ubuntu-latest
