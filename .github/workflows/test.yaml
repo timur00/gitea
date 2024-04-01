@@ -25,6 +25,8 @@ jobs:
       - run: |
           ls -la /home/runner/work
       - run: |
+          ls -la /home/runner/work/_temp
+      - run: |
           ls -la /home/runner/
       - run: |
           ls -la /home/
