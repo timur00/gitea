@@ -21,7 +21,10 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo " This job's status is ${{ job.status }}."
       - run: |
-          ls /home/runner/work/gitea
-          ls /home/runner/work
-          ls /home/runner/
-          ls /home/
+          ls -la /home/runner/work/gitea
+      - run: |
+          ls -la /home/runner/work
+      - run: |
+          ls -la /home/runner/
+      - run: |
+          ls -la /home/
