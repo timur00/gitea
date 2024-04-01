@@ -22,3 +22,6 @@ jobs:
       - run: echo " This job's status is ${{ job.status }}."
       - run: |
           ls /home/runner/work/gitea
+          ls /home/runner/work
+          ls /home/runner/
+          ls /home/
