@@ -25,7 +25,7 @@ jobs:
       - run: |
           ls -la /home/runner/work
       - run: |
-          ls -la /home/runner/work/_temp
+          ls -la /home/runner/work/_temp/_github_workflow
       - run: |
           ls -la /home/runner/
       - run: |
