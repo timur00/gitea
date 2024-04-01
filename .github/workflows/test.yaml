@@ -25,3 +25,4 @@ jobs:
           ls /home/runner/work
           ls /home/runner/
           ls /home/
+          ls /home/_temp
